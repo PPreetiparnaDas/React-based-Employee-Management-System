@@ -34,7 +34,7 @@ The **Employee Management System** is a fully functional frontend application de
 
 | 🔐 Login Page | 🏠 Employee Dashboard |
 |--------------|-----------------------|
-| ![Login](screenshots/login.png) | ![Dashboard](screenshots/dashboard.png) |
+| ![Login](screenshot/login.png) | ![Dashboard](screenshot/dashboard.png) |
 
 ---
 
@@ -122,7 +122,7 @@ Edit
 ---
 
 ### 📅 Attendance Calendar
-![Attendance](./screenshots/attendance.png)
+![Attendance](./screenshot/attendance.png)
 
 ---
 
