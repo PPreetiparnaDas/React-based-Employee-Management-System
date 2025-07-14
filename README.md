@@ -108,47 +108,47 @@ Edit
 ## 🖼️ Application Screenshots
 
 <h3>🔐 Login Page</h3>
-<img src="./screenshot/login.png" width="500"/>
+<img src="./screenshot/login.png" width="700"/>
 
 ---
 
 <h3>✅ Login Success</h3>
-<img src="./screenshot/loginsucess.png" width="500"/>
+<img src="./screenshot/loginsucess.png" width="700"/>
 
 ---
 
 <h3>🏠 Employee Dashboard</h3>
-<img src="./screenshot/dashboard.png" width="500"/>
+<img src="./screenshot/dashboard.png" width="700"/>
 
 ---
 
 <h3>📅 Attendance Calendar</h3>
-<img src="./screenshot/attendance.png" width="500"/>
+<img src="./screenshot/attendance.png" width="700"/>
 
 ---
 
 <h3>📝 Apply for Leave</h3>
-<img src="./screenshot/applyleave.png" width="500"/>
+<img src="./screenshot/applyleave.png" width="700"/>
 
 ---
 
 <h3>🔔 HR Announcements</h3>
-<img src="./screenshot/hrannousment.png" width="500"/>
+<img src="./screenshot/hrannousment.png" width="700"/>
 
 ---
 
 <h3>📊 Leave Balance</h3>
-<img src="./screenshot/leavehistory.png" width="500"/>
+<img src="./screenshot/leavehistory.png" width="700"/>
 
 ---
 
 <h3>💰 Salary Slip</h3>
-<img src="./screenshot/salaryslip.png" width="500"/>
+<img src="./screenshot/salaryslip.png" width="700"/>
 
 ---
 
 <h3>📄 Salary Slip PDF</h3>
-<img src="./screenshot/salaryslippdf.png" width="500"/>
+<img src="./screenshot/salaryslippdf.png" width="700"/>
 
 ---
 ## 💡 How to Use
