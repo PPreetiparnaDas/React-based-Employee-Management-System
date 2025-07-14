@@ -1,0 +1,52 @@
+/* Make each calendar cell look like a 3D soft button */
+
+.react-calendar__tile {
+  height: 5em !important;
+  padding: 0.5em;
+  margin: 3px;
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  box-shadow: inset 0 -2px 4px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease-in-out;
+}
+
+/* Hover effect for all tiles */
+.react-calendar__tile:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  background-color: #f8f9fa;
+  cursor: pointer;
+}
+
+/* Today highlight */
+.react-calendar__tile--now {
+  border: 2px solid #0d6efd !important;
+  font-weight: bold;
+}
+
+/* Present - soft green */
+.bg-light-green {
+  background: linear-gradient(to top left, #50f07d, #d4edda);
+  color: #155724 !important;
+  font-weight: 500;
+}
+
+/* Absent - soft red */
+.bg-light-red {
+  background: linear-gradient(to top left, #f25b53, #f8d7da);
+  color: #721c24 !important;
+  font-weight: 500;
+}
+
+/* Weekend */
+.bg-secondary {
+  background-color: #c8d1f5 !important;
+  color: #6c757d !important;
+}
+
+/* Force border for visual separation */
+.border {
+  border: 1px solid #ced4da !important;
+}

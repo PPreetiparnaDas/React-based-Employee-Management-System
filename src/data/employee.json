@@ -1,0 +1,881 @@
+[
+  {
+    "id": "EMP001",
+    "name": "P Preetiparna Das",
+    "email": "preetiparnadas09@gmail.com",
+    "password": "1111",
+    "image": "https://randomuser.me/api/portraits/women/44.jpg",
+    "gender": "female",
+    "phone": "9876543210",
+    "address": "123 MG Road, Bangalore",
+    "designation": "Software Engineer",
+    "role": "employee",
+    "salary": 30000,
+    "department": "IT",
+    "uan": "UAN1001001001",
+    "pf": "PF1001001",
+    "esi": "ESI1001001",
+    "bank": "Axis Bank",
+    "account": "XXXX1001",
+    "doj": "2022-01-15",
+    "leave": {
+      "casual": 2,
+      "sick": 1,
+      "paid": 1,
+      "applied": [
+        {
+          "date": "2025-06-10",
+          "days": 1,
+          "type": "casual",
+          "reason": "Family function"
+        },
+        {
+          "date": "2025-07-10",
+          "days": 1,
+          "type": "casual",
+          "reason": "Friends Tour"
+        },
+        {
+          "date": "2025-04-10",
+          "days": 1,
+          "type": "sick",
+          "reason": "High fever"
+        },
+        {
+          "date": "2025-06-15",
+          "days": 2,
+          "type": "paid",
+          "reason": "Personal work"
+        }
+      ]
+    },
+    "attendance": [
+      { "date": "2025-01-05", "status": "Absent" },
+      { "date": "2025-02-06", "status": "Absent" },
+      { "date": "2025-03-07", "status": "Absent" },
+      { "date": "2025-04-08", "status": "Absent" },
+      { "date": "2025-05-09", "status": "Absent" },
+      { "date": "2025-06-10", "status": "Absent" },
+      { "date": "2025-07-11", "status": "Absent" }
+    ],
+    "salarySlips": [
+      {
+        "month": "January",
+        "year": 2025,
+        "basic": 20000,
+        "hra": 6000,
+        "otherAllowance": 4000,
+        "deductions": 2000,
+        "netSalary": 28000
+      },
+      {
+        "month": "February",
+        "year": 2025,
+        "basic": 20000,
+        "hra": 6000,
+        "otherAllowance": 4000,
+        "deductions": 2000,
+        "netSalary": 28000
+      },
+      {
+        "month": "March",
+        "year": 2025,
+        "basic": 20000,
+        "hra": 6000,
+        "otherAllowance": 4000,
+        "deductions": 2000,
+        "netSalary": 28000
+      },
+      {
+        "month": "April",
+        "year": 2025,
+        "basic": 20000,
+        "hra": 6000,
+        "otherAllowance": 4000,
+        "deductions": 2000,
+        "netSalary": 28000
+      },
+      {
+        "month": "May",
+        "year": 2025,
+        "basic": 20000,
+        "hra": 6000,
+        "otherAllowance": 4000,
+        "deductions": 2000,
+        "netSalary": 28000
+      },
+      {
+        "month": "June",
+        "year": 2025,
+        "basic": 20000,
+        "hra": 6000,
+        "otherAllowance": 4000,
+        "deductions": 2000,
+        "netSalary": 28000
+      }
+    ]
+  },
+  {
+    "id": "EMP002",
+    "name": "Jane Smith",
+    "email": "jane.smith@example.com",
+    "password": "jane456",
+    "image": "https://randomuser.me/api/portraits/men/32.jpg",
+    "phone": "9876501234",
+    "gender": "male",
+    "address": "45 Park Street, Mumbai",
+    "designation": "HR Manager",
+    "role": "employee",
+    "salary": 32000,
+    "department": "HR",
+    "uan": "UAN1001001002",
+    "pf": "PF1001002",
+    "esi": "ESI1001002",
+    "bank": "HDFC Bank",
+    "account": "XXXX1002",
+    "doj": "2021-03-22",
+    "leave": {
+      "casual": 1,
+      "sick": 2,
+      "paid": 1,
+      "applied": [
+        {
+          "date": "2025-02-01",
+          "days": 1,
+          "type": "sick",
+          "reason": "Fever"
+        },
+        {
+          "date": "2025-03-02",
+          "days": 1,
+          "type": "sick",
+          "reason": "Fever"
+        },
+        {
+          "date": "2025-01-03",
+          "days": 1,
+          "type": "paid",
+          "reason": "Fever"
+        },
+        {
+          "date": "2025-06-12",
+          "days": 1,
+          "type": "casual",
+          "reason": "Bank appointment"
+        }
+      ]
+    },
+    "attendance": [
+      {
+        "date": "2025-06-10",
+        "status": "Absent"
+      },
+      {
+        "date": "2025-06-09",
+        "status": "Absent"
+      },
+      {
+        "date": "2025-06-08",
+        "status": "Absent"
+      },
+      {
+        "date": "2025-06-07",
+        "status": "Present"
+      },
+      {
+        "date": "2025-06-06",
+        "status": "Absent"
+      },
+      {
+        "date": "2025-06-05",
+        "status": "Present"
+      },
+      {
+        "date": "2025-06-04",
+        "status": "Present"
+      },
+      {
+        "date": "2025-06-03",
+        "status": "Present"
+      },
+      {
+        "date": "2025-06-02",
+        "status": "Present"
+      },
+      {
+        "date": "2025-06-01",
+        "status": "Absent"
+      },
+      {
+        "date": "2025-05-31",
+        "status": "Present"
+      }
+    ],
+    "salarySlips": [
+      {
+        "month": "January",
+        "year": 2025,
+        "basic": 22000,
+        "hra": 6000,
+        "otherAllowance": 4000,
+        "deductions": 2000,
+        "netSalary": 30000
+      },
+      {
+        "month": "February",
+        "year": 2025,
+        "basic": 22000,
+        "hra": 6000,
+        "otherAllowance": 4000,
+        "deductions": 2000,
+        "netSalary": 30000
+      },
+      {
+        "month": "March",
+        "year": 2025,
+        "basic": 22000,
+        "hra": 6000,
+        "otherAllowance": 4000,
+        "deductions": 2000,
+        "netSalary": 30000
+      },
+      {
+        "month": "April",
+        "year": 2025,
+        "basic": 22000,
+        "hra": 6000,
+        "otherAllowance": 4000,
+        "deductions": 2000,
+        "netSalary": 30000
+      },
+      {
+        "month": "May",
+        "year": 2025,
+        "basic": 22000,
+        "hra": 6000,
+        "otherAllowance": 4000,
+        "deductions": 2000,
+        "netSalary": 30000
+      },
+      {
+        "month": "June",
+        "year": 2025,
+        "basic": 22000,
+        "hra": 6000,
+        "otherAllowance": 4000,
+        "deductions": 2000,
+        "netSalary": 30000
+      }
+    ]
+  },
+  {
+    "id": "EMP003",
+    "name": "Arjun Kumar",
+    "email": "arjun.kumar@example.com",
+    "password": "arjun789",
+    "image": "https://randomuser.me/api/portraits/men/75.jpg",
+    "phone": "9123456780",
+    "gender": "male",
+    "address": "78 Bapuji Nagar, Delhi",
+    "designation": "Accountant",
+    "role": "employee",
+    "salary": 28000,
+    "department": "Finance",
+    "uan": "UAN1001001003",
+    "pf": "PF1001003",
+    "esi": "ESI1001003",
+    "bank": "ICICI Bank",
+    "account": "XXXX1003",
+    "doj": "2020-07-10",
+    "leave": {
+      "casual": 3,
+      "sick": 0,
+      "paid": 2,
+      "applied": [
+        {
+          "date": "2025-06-02",
+          "days": 2,
+          "type": "paid",
+          "reason": "Traveling"
+        },
+        {
+          "date": "2025-04-10",
+          "days": 1,
+          "type": "casual",
+          "reason": "Marriage function"
+        },
+        {
+          "date": "2025-03-10",
+          "days": 1,
+          "type": "casual",
+          "reason": "Marriage function"
+        },
+        {
+          "date": "2025-02-10",
+          "days": 1,
+          "type": "casual",
+          "reason": "Marriage function"
+        }
+      ]
+    },
+    "attendance": [
+      {
+        "date": "2025-06-10",
+        "status": "Absent"
+      },
+      {
+        "date": "2025-06-09",
+        "status": "Absent"
+      },
+      {
+        "date": "2025-06-08",
+        "status": "Present"
+      },
+      {
+        "date": "2025-06-07",
+        "status": "Absent"
+      },
+      {
+        "date": "2025-06-06",
+        "status": "Present"
+      },
+      {
+        "date": "2025-06-05",
+        "status": "Absent"
+      },
+      {
+        "date": "2025-06-04",
+        "status": "Absent"
+      },
+      {
+        "date": "2025-06-03",
+        "status": "Absent"
+      },
+      {
+        "date": "2025-06-02",
+        "status": "Absent"
+      },
+      {
+        "date": "2025-06-01",
+        "status": "Absent"
+      },
+      {
+        "date": "2025-05-31",
+        "status": "Absent"
+      },
+      {
+        "date": "2025-05-30",
+        "status": "Absent"
+      },
+      {
+        "date": "2025-05-29",
+        "status": "Absent"
+      },
+      {
+        "date": "2025-05-28",
+        "status": "Absent"
+      }
+    ],
+    "salarySlips": [
+      {
+        "month": "January",
+        "year": 2025,
+        "basic": 18000,
+        "hra": 6000,
+        "otherAllowance": 4000,
+        "deductions": 2000,
+        "netSalary": 26000
+      },
+      {
+        "month": "February",
+        "year": 2025,
+        "basic": 18000,
+        "hra": 6000,
+        "otherAllowance": 4000,
+        "deductions": 2000,
+        "netSalary": 26000
+      },
+      {
+        "month": "March",
+        "year": 2025,
+        "basic": 18000,
+        "hra": 6000,
+        "otherAllowance": 4000,
+        "deductions": 2000,
+        "netSalary": 26000
+      },
+      {
+        "month": "April",
+        "year": 2025,
+        "basic": 18000,
+        "hra": 6000,
+        "otherAllowance": 4000,
+        "deductions": 2000,
+        "netSalary": 26000
+      },
+      {
+        "month": "May",
+        "year": 2025,
+        "basic": 18000,
+        "hra": 6000,
+        "otherAllowance": 4000,
+        "deductions": 2000,
+        "netSalary": 26000
+      },
+      {
+        "month": "June",
+        "year": 2025,
+        "basic": 18000,
+        "hra": 6000,
+        "otherAllowance": 4000,
+        "deductions": 2000,
+        "netSalary": 26000
+      }
+    ]
+  },
+  {
+    "id": "EMP004",
+    "name": "Sneha Roy",
+    "email": "sneha.roy@example.com",
+    "password": "sneha123",
+    "image": "https://randomuser.me/api/portraits/men/15.jpg",
+    "phone": "9345678921",
+    "gender": "male",
+    "address": "12 Lake View Road, Kolkata",
+    "designation": "UI/UX Designer",
+    "role": "employee",
+    "salary": 31000,
+    "department": "Development",
+    "uan": "UAN1001001004",
+    "pf": "PF1001004",
+    "esi": "ESI1001004",
+    "bank": "SBI Bank",
+    "account": "XXXX1004",
+    "doj": "2023-05-01",
+    "leave": {
+      "casual": 2,
+      "sick": 1,
+      "paid": 0,
+      "applied": [
+        {
+          "date": "2025-06-08",
+          "days": 1,
+          "type": "sick",
+          "reason": "Doctor appointment"
+        },
+        {
+          "date": "2025-06-13",
+          "days": 2,
+          "type": "casual",
+          "reason": "Family travel"
+        }
+      ]
+    },
+    "attendance": [
+      {
+        "date": "2025-06-10",
+        "status": "Present"
+      },
+      {
+        "date": "2025-06-09",
+        "status": "Absent"
+      },
+      {
+        "date": "2025-06-08",
+        "status": "Present"
+      },
+      {
+        "date": "2025-06-07",
+        "status": "Present"
+      },
+      {
+        "date": "2025-06-06",
+        "status": "Absent"
+      },
+      {
+        "date": "2025-06-05",
+        "status": "Absent"
+      },
+      {
+        "date": "2025-06-04",
+        "status": "Absent"
+      },
+      {
+        "date": "2025-06-03",
+        "status": "Absent"
+      },
+      {
+        "date": "2025-06-02",
+        "status": "Present"
+      },
+      {
+        "date": "2025-06-01",
+        "status": "Absent"
+      }
+    ],
+    "salarySlips": [
+      {
+        "month": "January",
+        "year": 2025,
+        "basic": 21000,
+        "hra": 6000,
+        "otherAllowance": 4000,
+        "deductions": 2000,
+        "netSalary": 29000
+      },
+      {
+        "month": "February",
+        "year": 2025,
+        "basic": 21000,
+        "hra": 6000,
+        "otherAllowance": 4000,
+        "deductions": 2000,
+        "netSalary": 29000
+      },
+      {
+        "month": "March",
+        "year": 2025,
+        "basic": 21000,
+        "hra": 6000,
+        "otherAllowance": 4000,
+        "deductions": 2000,
+        "netSalary": 29000
+      },
+      {
+        "month": "April",
+        "year": 2025,
+        "basic": 21000,
+        "hra": 6000,
+        "otherAllowance": 4000,
+        "deductions": 2000,
+        "netSalary": 29000
+      },
+      {
+        "month": "May",
+        "year": 2025,
+        "basic": 21000,
+        "hra": 6000,
+        "otherAllowance": 4000,
+        "deductions": 2000,
+        "netSalary": 29000
+      },
+      {
+        "month": "June",
+        "year": 2025,
+        "basic": 21000,
+        "hra": 6000,
+        "otherAllowance": 4000,
+        "deductions": 2000,
+        "netSalary": 29000
+      }
+    ]
+  },
+  {
+    "id": "EMP005",
+    "name": "Rahul Verma",
+    "email": "rahul.verma@example.com",
+    "password": "rahul456",
+    "image": "https://randomuser.me/api/portraits/men/40.jpg",
+    "phone": "9988776655",
+    "gender": "male",
+    "address": "6 Gandhi Street, Hyderabad",
+    "designation": "Marketing Executive",
+    "role": "employee",
+    "salary": 27000,
+    "department": "HR",
+    "uan": "UAN1001001002",
+    "pf": "PF1001002",
+    "esi": "ESI1001002",
+    "bank": "HDFC Bank",
+    "account": "XXXX1002",
+    "doj": "2021-03-22",
+    "leave": {
+      "casual": 0,
+      "sick": 2,
+      "paid": 3,
+      "applied": [
+        {
+          "date": "2025-06-01",
+          "days": 2,
+          "type": "sick",
+          "reason": "Cold and headache"
+        },
+        {
+          "date": "2025-06-11",
+          "days": 3,
+          "type": "paid",
+          "reason": "Urgent household work"
+        }
+      ]
+    },
+    "attendance": [
+      {
+        "date": "2025-06-10",
+        "status": "Present"
+      },
+      {
+        "date": "2025-06-09",
+        "status": "Present"
+      },
+      {
+        "date": "2025-06-08",
+        "status": "Present"
+      },
+      {
+        "date": "2025-06-07",
+        "status": "Present"
+      },
+      {
+        "date": "2025-06-06",
+        "status": "Absent"
+      },
+      {
+        "date": "2025-06-05",
+        "status": "Present"
+      },
+      {
+        "date": "2025-06-04",
+        "status": "Absent"
+      },
+      {
+        "date": "2025-06-03",
+        "status": "Present"
+      },
+      {
+        "date": "2025-06-02",
+        "status": "Present"
+      },
+      {
+        "date": "2025-06-01",
+        "status": "Absent"
+      },
+      {
+        "date": "2025-05-31",
+        "status": "Present"
+      },
+      {
+        "date": "2025-05-30",
+        "status": "Present"
+      },
+      {
+        "date": "2025-05-29",
+        "status": "Present"
+      },
+      {
+        "date": "2025-05-28",
+        "status": "Present"
+      }
+    ],
+    "salarySlips": [
+      {
+        "month": "January",
+        "year": 2025,
+        "basic": 17000,
+        "hra": 6000,
+        "otherAllowance": 4000,
+        "deductions": 2000,
+        "netSalary": 25000
+      },
+      {
+        "month": "February",
+        "year": 2025,
+        "basic": 17000,
+        "hra": 6000,
+        "otherAllowance": 4000,
+        "deductions": 2000,
+        "netSalary": 25000
+      },
+      {
+        "month": "March",
+        "year": 2025,
+        "basic": 17000,
+        "hra": 6000,
+        "otherAllowance": 4000,
+        "deductions": 2000,
+        "netSalary": 25000
+      },
+      {
+        "month": "April",
+        "year": 2025,
+        "basic": 17000,
+        "hra": 6000,
+        "otherAllowance": 4000,
+        "deductions": 2000,
+        "netSalary": 25000
+      },
+      {
+        "month": "May",
+        "year": 2025,
+        "basic": 17000,
+        "hra": 6000,
+        "otherAllowance": 4000,
+        "deductions": 2000,
+        "netSalary": 25000
+      },
+      {
+        "month": "June",
+        "year": 2025,
+        "basic": 17000,
+        "hra": 6000,
+        "otherAllowance": 4000,
+        "deductions": 2000,
+        "netSalary": 25000
+      }
+    ]
+  },
+  {
+    "id": "ADMIN001",
+    "name": "Admin User",
+    "email": "admin@company.com",
+    "password": "admin123",
+    "image": "https://randomuser.me/api/portraits/men/63.jpg",
+    "phone": "9000000001",
+    "gender": "male",
+    "address": "Corporate Office, HQ",
+    "designation": "System Administrator",
+    "role": "admin",
+    "salary": 50000,
+    "department": "Admin",
+    "uan": "UAN1001001008",
+    "pf": "PF1001008",
+    "esi": "ESI1001008",
+    "bank": "Yes Bank",
+    "account": "XXXX1008",
+    "doj": "2023-02-20",
+    "leave": {
+      "casual": 2,
+      "sick": 1,
+      "paid": 2,
+      "applied": [
+        {
+          "date": "2025-06-08",
+          "days": 1,
+          "type": "sick",
+          "reason": "Doctor appointment"
+        },
+        {
+          "date": "2025-06-08",
+          "days": 2,
+          "type": "casual",
+          "reason": "Customer appointment"
+        },
+        {
+          "date": "2025-06-13",
+          "days": 2,
+          "type": "paid",
+          "reason": "Family travel"
+        }
+      ]
+    },
+    "attendance": [
+      {
+        "date": "2025-06-10",
+        "status": "Present"
+      },
+      {
+        "date": "2025-06-09",
+        "status": "Present"
+      },
+      {
+        "date": "2025-06-08",
+        "status": "Present"
+      },
+      {
+        "date": "2025-06-07",
+        "status": "Present"
+      },
+      {
+        "date": "2025-06-06",
+        "status": "Present"
+      },
+      {
+        "date": "2025-06-05",
+        "status": "Present"
+      },
+      {
+        "date": "2025-06-04",
+        "status": "Absent"
+      },
+      {
+        "date": "2025-06-03",
+        "status": "Absent"
+      },
+      {
+        "date": "2025-06-02",
+        "status": "Absent"
+      },
+      {
+        "date": "2025-06-01",
+        "status": "Present"
+      },
+      {
+        "date": "2025-05-31",
+        "status": "Present"
+      },
+      {
+        "date": "2025-05-30",
+        "status": "Absent"
+      },
+      {
+        "date": "2025-05-29",
+        "status": "Present"
+      }
+    ],
+    "salarySlips": [
+      {
+        "month": "January",
+        "year": 2025,
+        "basic": 40000,
+        "hra": 6000,
+        "otherAllowance": 4000,
+        "deductions": 2000,
+        "netSalary": 48000
+      },
+      {
+        "month": "February",
+        "year": 2025,
+        "basic": 40000,
+        "hra": 6000,
+        "otherAllowance": 4000,
+        "deductions": 2000,
+        "netSalary": 48000
+      },
+      {
+        "month": "March",
+        "year": 2025,
+        "basic": 40000,
+        "hra": 6000,
+        "otherAllowance": 4000,
+        "deductions": 2000,
+        "netSalary": 48000
+      },
+      {
+        "month": "April",
+        "year": 2025,
+        "basic": 40000,
+        "hra": 6000,
+        "otherAllowance": 4000,
+        "deductions": 2000,
+        "netSalary": 48000
+      },
+      {
+        "month": "May",
+        "year": 2025,
+        "basic": 40000,
+        "hra": 6000,
+        "otherAllowance": 4000,
+        "deductions": 2000,
+        "netSalary": 48000
+      },
+      {
+        "month": "June",
+        "year": 2025,
+        "basic": 40000,
+        "hra": 6000,
+        "otherAllowance": 4000,
+        "deductions": 2000,
+        "netSalary": 48000
+      }
+    ]
+  }
+]

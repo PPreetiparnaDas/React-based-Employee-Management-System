@@ -1,0 +1,40 @@
+/* HRAnnouncements.css */
+
+.announcement-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.announcement-card {
+  background-color: #fff;
+  border-left: 6px solid #0d6efd;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  animation: fadeIn 0.5s ease;
+  transition: transform 0.2s ease-in-out;
+}
+
+.announcement-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  border-bottom: 1px solid #f1f1f1;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
