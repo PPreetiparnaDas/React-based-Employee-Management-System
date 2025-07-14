@@ -107,43 +107,48 @@ Edit
 ---
 ## 🖼️ Application Screenshots
 
-### 🔐 Login Page
-![Login Page](./screenshot/login.png)
-
----
-### 🔐 Login Page Success
-![Login Page](./screenshot/loginsucess.png)
+<h3>🔐 Login Page</h3>
+<img src="./screenshot/login.png" width="500"/>
 
 ---
 
-### 🏠 Employee Dashboard
-![Dashboard](./screenshot/dashboard.png)
+<h3>✅ Login Success</h3>
+<img src="./screenshot/loginsucess.png" width="500"/>
 
 ---
 
-### 📅 Attendance Calendar
-![Attendance](./screenshot/attendance.png)
+<h3>🏠 Employee Dashboard</h3>
+<img src="./screenshot/dashboard.png" width="500"/>
 
 ---
 
-### 📝 Apply for Leave
-![Apply Leave](./screenshot/applyleave.png)
+<h3>📅 Attendance Calendar</h3>
+<img src="./screenshot/attendance.png" width="500"/>
 
 ---
-### 🔔Hr annousment
-![Hr Annousment](./screenshot/hrannousment.png)
+
+<h3>📝 Apply for Leave</h3>
+<img src="./screenshot/applyleave.png" width="500"/>
 
 ---
-### 📊 LeaveBalance
-![Leave Balance](./screenshot/leavehistory.png)
+
+<h3>🔔 HR Announcements</h3>
+<img src="./screenshot/hrannousment.png" width="500"/>
 
 ---
-### 💰 Salary slip
-![Salary Slip](./screenshot/salaryslip.png)
+
+<h3>📊 Leave Balance</h3>
+<img src="./screenshot/leavehistory.png" width="500"/>
 
 ---
-### Salary Slip pdf
-![Leave Balance](./screenshot/salaryslippdf.png)
+
+<h3>💰 Salary Slip</h3>
+<img src="./screenshot/salaryslip.png" width="500"/>
+
+---
+
+<h3>📄 Salary Slip PDF</h3>
+<img src="./screenshot/salaryslippdf.png" width="500"/>
 
 ---
 ## 💡 How to Use
