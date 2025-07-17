@@ -50,9 +50,9 @@ The **Employee Management System** is a fully functional frontend application de
 
 ---
 
-### 📁 Project Structure
+## 📁 Project Structure
 
-bash
+```bash
 EMPLOYEE-APP/
 ├── node_modules/
 ├── public/
@@ -76,11 +76,6 @@ EMPLOYEE-APP/
 │   ├── App.js
 │   └── index.js
 
-
-
-markdown
-Copy
-Edit
 
 ---
 
