@@ -151,7 +151,7 @@ Edit <br>
 ---
 
 <h3>📄 Salary Slip PDF</h3>
-<img src="./screenshot/salaryslippdf.png" width="700"/>
+<img src="./screenshot/salaryslippdf.png" padding="100" width="700"/>
 
 ---
 ## 💡 How to Use
