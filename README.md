@@ -50,27 +50,29 @@ The **Employee Management System** is a fully functional frontend application de
 
 ---
 
-## 📂 Project Structure
+### 📁 Project Structure
 
-📁 employee-management-system/
-├── 📁 public/
-├── 📁 src/
-│ ├── 📁 components/
-│ │ ├── Login.jsx
-│ │ ├── EmployeeDashboard.jsx
-│ │ └── 📁 dashboard/
-│ │ ├── PersonalDetails.jsx
-│ │ ├── Attendance.jsx
-│ │ ├── ApplyLeave.jsx
-│ │ ├── LeaveBalance.jsx
-│ │ ├── SalarySlips.jsx
-│ │ └── HRAnnouncements.jsx
-│ ├── 📁 data/
-│ │ └── employee.json
-│ ├── 📁 styles/
-│ │ └── CalendarOverride.css
-│ ├── App.js
-│ ├── index.js
+```bash
+employee-management-system/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Login.jsx
+│   │   ├── EmployeeDashboard.jsx
+│   │   ├── dashboard/
+│   │   ├── PersonalDetails.jsx
+│   │   ├── Attendance.jsx
+│   │   ├── ApplyLeave.jsx
+│   │   ├── LeaveBalance.jsx
+│   │   ├── SalarySlips.jsx
+│   │   └── HRAnnouncements.jsx
+│   ├── data/
+│   │   └── employee.json
+│   ├── styles/
+│   │   └── CalendarOverride.css
+│   ├── App.js
+│   └── index.js
+
 
 markdown
 Copy
