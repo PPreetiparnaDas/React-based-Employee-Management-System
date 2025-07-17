@@ -183,7 +183,7 @@ The app will open on http://localhost:5173/ <br>
 Preetiparna Das
 Frontend Developer | React Enthusiast
 
-GitHub: @PPreetiparnaDas
+GitHub: [@PPreetiparnaDas](https://github.com/PPreetiparnaDas)
 
 Email: preetiparnadas09@gmail.com
 
