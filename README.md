@@ -53,25 +53,29 @@ The **Employee Management System** is a fully functional frontend application de
 ### 📁 Project Structure
 
 bash
-employee-management-system/
+EMPLOYEE-APP/
+├── node_modules/
 ├── public/
+├── screenshot/
 ├── src/
+│   ├── assets/
 │   ├── components/
-│   │   ├── Login.jsx
-│   │   ├── EmployeeDashboard.jsx
 │   │   ├── dashboard/
-│   │   ├── PersonalDetails.jsx
-│   │   ├── Attendance.jsx
-│   │   ├── ApplyLeave.jsx
-│   │   ├── LeaveBalance.jsx
-│   │   ├── SalarySlips.jsx
-│   │   └── HRAnnouncements.jsx
+│   │   │   ├── Announcements.jsx
+│   │   │   ├── ApplyLeave.jsx
+│   │   │   ├── Attendance.jsx
+│   │   │   ├── LeaveBalance.jsx
+│   │   │   ├── PersonalDetails.jsx
+│   │   │   └── SalarySlips.jsx
+│   │   ├── AdminDashboard.jsx
+│   │   ├── EmployeeDashboard.jsx
+│   │   └── Login.jsx
 │   ├── data/
-│   │   └── employee.json
 │   ├── styles/
-│   │   └── CalendarOverride.css
+│   │   └── App.css
 │   ├── App.js
 │   └── index.js
+
 
 
 markdown
@@ -161,11 +165,11 @@ Edit
 
 ### 📦 Installation
 bash
-git clone https://github.com/your-username/employee-management-system.git
+git clone https://github.com/PPreetiparnaDas/React-based-Employee-Management-System
 cd employee-management-system
 npm install
 npm start
-The app will open on http://localhost:3000
+The app will open on [http://localhost:3000](http://localhost:5173/)
 
 🎯 Key Learning Outcomes
 🔄 React state and effect management (useState, useEffect)
