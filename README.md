@@ -52,24 +52,26 @@ The **Employee Management System** is a fully functional frontend application de
 
 ### 📁 Project Structure
 
-```bash
-employee-management-system/
+EMPLOYEE-APP/
+├── node_modules/
 ├── public/
+├── screenshot/
 ├── src/
+│   ├── assets/
 │   ├── components/
-│   │   ├── Login.jsx
-│   │   ├── EmployeeDashboard.jsx
 │   │   ├── dashboard/
-│   │   ├── PersonalDetails.jsx
-│   │   ├── Attendance.jsx
-│   │   ├── ApplyLeave.jsx
-│   │   ├── LeaveBalance.jsx
-│   │   ├── SalarySlips.jsx
-│   │   └── HRAnnouncements.jsx
+│   │   │   ├── Announcements.jsx
+│   │   │   ├── ApplyLeave.jsx
+│   │   │   ├── Attendance.jsx
+│   │   │   ├── LeaveBalance.jsx
+│   │   │   ├── PersonalDetails.jsx
+│   │   │   └── SalarySlips.jsx
+│   │   ├── AdminDashboard.jsx
+│   │   ├── EmployeeDashboard.jsx
+│   │   └── Login.jsx
 │   ├── data/
-│   │   └── employee.json
 │   ├── styles/
-│   │   └── CalendarOverride.css
+│   │   └── App.css
 │   ├── App.js
 │   └── index.js
 
@@ -80,85 +82,60 @@ Edit
 
 ---
 
-## 🧩 Major Functional Components
+🧩 Major Functional Components
+🔐 Login.jsx
+Validates user credentials from employee.json
 
-### 🔐 Login.jsx
-- Validates user credentials from `employee.json`
-- Stores user info in `localStorage`
+Stores user info in localStorage
 
-### 🏠 EmployeeDashboard.jsx
-- Renders all dashboard sections after login
-- Handles logout with `localStorage.clear()`
+🏠 EmployeeDashboard.jsx
+Renders all dashboard sections after login
 
-### 📅 Attendance.jsx
-- Uses `react-calendar` to mark attendance
-- Stores attendance dates in `localStorage`
+Handles logout with localStorage.clear()
 
-### 📝 ApplyLeave.jsx
-- Users can apply for leave by submitting a form
-- Leave records stored in `localStorage`
+📅 Attendance.jsx
+Uses react-calendar to mark attendance
 
-### 📊 LeaveBalance.jsx
-- Displays remaining and total leave balance
+Stores attendance dates in localStorage
 
-### 💰 SalarySlips.jsx
-- Displays hardcoded salary slip table
+📝 ApplyLeave.jsx
+Users can apply for leave by submitting a form
 
-### 🔔 HRAnnouncements.jsx
-- Shows dummy announcements (can be enhanced with backend)
----
-## 🖼️ Application Screenshots
+Leave records stored in localStorage
 
-<h3>🔐 Login Page</h3>
+📊 LeaveBalance.jsx
+Displays remaining and total leave balance
+
+💰 SalarySlips.jsx
+Displays hardcoded salary slip table
+
+🔔 HRAnnouncements.jsx
+Shows dummy announcements (can be enhanced with backend)
+
+🖼️ Application Screenshots
+🔐 Login Page
 <img src="./screenshot/login.png" width="700"/>
-
----
-
-<h3>✅ Login Success</h3>
+✅ Login Success
 <img src="./screenshot/loginsucess.png" width="700"/>
-
----
-
-<h3>🏠 Employee Dashboard</h3>
+🏠 Employee Dashboard
 <img src="./screenshot/dashboard.png" width="700"/>
-
----
-
-<h3>📅 Attendance Calendar</h3>
+📅 Attendance Calendar
 <img src="./screenshot/attendance.png" width="700"/>
-
----
-
-<h3>📝 Apply for Leave</h3>
+📝 Apply for Leave
 <img src="./screenshot/applyleave.png" width="700"/>
-
----
-
-<h3>🔔 HR Announcements</h3>
+🔔 HR Announcements
 <img src="./screenshot/hrannousment.png" width="700"/>
-
----
-
-<h3>📊 Leave Balance</h3>
+📊 Leave Balance
 <img src="./screenshot/leavehistory.png" width="700"/>
-
----
-
-<h3>💰 Salary Slip</h3>
+💰 Salary Slip
 <img src="./screenshot/salaryslip.png" width="700"/>
-
----
-
-<h3>📄 Salary Slip PDF</h3>
+📄 Salary Slip PDF
 <img src="./screenshot/salaryslippdf.png" width="700"/>
+💡 How to Use
+✅ Prerequisites
+Node.js (v14+)
 
----
-## 💡 How to Use
-
-### ✅ Prerequisites
-- Node.js (v14+)
-- npm
-
+npm
 ### 📦 Installation
 
 ```bash
