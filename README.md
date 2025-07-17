@@ -52,7 +52,7 @@ The **Employee Management System** is a fully functional frontend application de
 
 ### 📁 Project Structure
 
-bash
+```bash
 employee-management-system/
 ├── public/
 ├── screenshot/
