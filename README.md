@@ -55,6 +55,7 @@ The **Employee Management System** is a fully functional frontend application de
 bash
 employee-management-system/
 ├── public/
+├── screenshot/
 ├── src/
 │   ├── components/
 │   │   ├── Login.jsx
@@ -161,11 +162,11 @@ Edit
 
 ### 📦 Installation
 bash
-git clone https://github.com/your-username/employee-management-system.git
+git clone https://github.com/PPreetiparnaDas/React-based-Employee-Management-System 
 cd employee-management-system
 npm install
 npm start
-The app will open on http://localhost:3000
+The app will open on http://localhost:5173/
 
 🎯 Key Learning Outcomes
 🔄 React state and effect management (useState, useEffect)
