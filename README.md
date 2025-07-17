@@ -163,10 +163,10 @@ Edit
 ### 📦 Installation
 bash
 git clone https://github.com/PPreetiparnaDas/React-based-Employee-Management-System <br>
-cd employee-management-system
-npm install
-npm start
-The app will open on http://localhost:5173/
+cd employee-management-system <br>
+npm install <br>
+npm start <br>
+The app will open on http://localhost:5173/ <br>
 
 🎯 Key Learning Outcomes
 🔄 React state and effect management (useState, useEffect)
