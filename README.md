@@ -52,7 +52,7 @@ The **Employee Management System** is a fully functional frontend application de
 
 ### 📁 Project Structure
 
-```bash
+bash
 employee-management-system/
 ├── public/
 ├── screenshot/
@@ -162,7 +162,7 @@ Edit
 
 ### 📦 Installation
 bash
-git clone https://github.com/PPreetiparnaDas/React-based-Employee-Management-System 
+git clone https://github.com/PPreetiparnaDas/React-based-Employee-Management-System <br>
 cd employee-management-system
 npm install
 npm start
