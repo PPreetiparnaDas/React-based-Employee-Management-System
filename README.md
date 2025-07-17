@@ -24,13 +24,13 @@ The **Employee Management System** is a fully functional frontend application de
 - 💰 Viewing salary slips
 - 📢 Reading HR announcements
 
-> 🔒 All session and data state is maintained via `localStorage` to simulate backend interactions.
+> 🔒 All session and data state is maintained via localStorage to simulate backend interactions.
 
 ---
 
 ## ✨ Live Features Demo (Screenshots or GIF)
 
-> You can upload your images in a `/screenshots` folder and use them here:
+> You can upload your images in a /screenshots folder and use them here:
 
 | 🔐 Login Page | 🏠 Employee Dashboard |
 |--------------|-----------------------|
@@ -52,26 +52,24 @@ The **Employee Management System** is a fully functional frontend application de
 
 ### 📁 Project Structure
 
-EMPLOYEE-APP/
-├── node_modules/
+bash
+employee-management-system/
 ├── public/
-├── screenshot/
 ├── src/
-│   ├── assets/
 │   ├── components/
-│   │   ├── dashboard/
-│   │   │   ├── Announcements.jsx
-│   │   │   ├── ApplyLeave.jsx
-│   │   │   ├── Attendance.jsx
-│   │   │   ├── LeaveBalance.jsx
-│   │   │   ├── PersonalDetails.jsx
-│   │   │   └── SalarySlips.jsx
-│   │   ├── AdminDashboard.jsx
+│   │   ├── Login.jsx
 │   │   ├── EmployeeDashboard.jsx
-│   │   └── Login.jsx
+│   │   ├── dashboard/
+│   │   ├── PersonalDetails.jsx
+│   │   ├── Attendance.jsx
+│   │   ├── ApplyLeave.jsx
+│   │   ├── LeaveBalance.jsx
+│   │   ├── SalarySlips.jsx
+│   │   └── HRAnnouncements.jsx
 │   ├── data/
+│   │   └── employee.json
 │   ├── styles/
-│   │   └── App.css
+│   │   └── CalendarOverride.css
 │   ├── App.js
 │   └── index.js
 
@@ -82,63 +80,87 @@ Edit
 
 ---
 
-🧩 Major Functional Components
-🔐 Login.jsx
-Validates user credentials from employee.json
+## 🧩 Major Functional Components
 
-Stores user info in localStorage
+### 🔐 Login.jsx
+- Validates user credentials from `employee.json`
+- Stores user info in `localStorage`
 
-🏠 EmployeeDashboard.jsx
-Renders all dashboard sections after login
+### 🏠 EmployeeDashboard.jsx
+- Renders all dashboard sections after login
+- Handles logout with `localStorage.clear()`
 
-Handles logout with localStorage.clear()
+### 📅 Attendance.jsx
+- Uses `react-calendar` to mark attendance
+- Stores attendance dates in `localStorage`
 
-📅 Attendance.jsx
-Uses react-calendar to mark attendance
+### 📝 ApplyLeave.jsx
+- Users can apply for leave by submitting a form
+- Leave records stored in `localStorage`
 
-Stores attendance dates in localStorage
+### 📊 LeaveBalance.jsx
+- Displays remaining and total leave balance
 
-📝 ApplyLeave.jsx
-Users can apply for leave by submitting a form
+### 💰 SalarySlips.jsx
+- Displays hardcoded salary slip table
 
-Leave records stored in localStorage
+### 🔔 HRAnnouncements.jsx
+- Shows dummy announcements (can be enhanced with backend)
+---
+## 🖼️ Application Screenshots
 
-📊 LeaveBalance.jsx
-Displays remaining and total leave balance
-
-💰 SalarySlips.jsx
-Displays hardcoded salary slip table
-
-🔔 HRAnnouncements.jsx
-Shows dummy announcements (can be enhanced with backend)
-
-🖼️ Application Screenshots
-🔐 Login Page
+<h3>🔐 Login Page</h3>
 <img src="./screenshot/login.png" width="700"/>
-✅ Login Success
+
+---
+
+<h3>✅ Login Success</h3>
 <img src="./screenshot/loginsucess.png" width="700"/>
-🏠 Employee Dashboard
+
+---
+
+<h3>🏠 Employee Dashboard</h3>
 <img src="./screenshot/dashboard.png" width="700"/>
-📅 Attendance Calendar
+
+---
+
+<h3>📅 Attendance Calendar</h3>
 <img src="./screenshot/attendance.png" width="700"/>
-📝 Apply for Leave
+
+---
+
+<h3>📝 Apply for Leave</h3>
 <img src="./screenshot/applyleave.png" width="700"/>
-🔔 HR Announcements
+
+---
+
+<h3>🔔 HR Announcements</h3>
 <img src="./screenshot/hrannousment.png" width="700"/>
-📊 Leave Balance
+
+---
+
+<h3>📊 Leave Balance</h3>
 <img src="./screenshot/leavehistory.png" width="700"/>
-💰 Salary Slip
+
+---
+
+<h3>💰 Salary Slip</h3>
 <img src="./screenshot/salaryslip.png" width="700"/>
-📄 Salary Slip PDF
+
+---
+
+<h3>📄 Salary Slip PDF</h3>
 <img src="./screenshot/salaryslippdf.png" width="700"/>
-💡 How to Use
-✅ Prerequisites
-Node.js (v14+)
 
-npm
+---
+## 💡 How to Use
+
+### ✅ Prerequisites
+- Node.js (v14+)
+- npm
+
 ### 📦 Installation
-
-```bash
+bash
 git clone https://github.com/your-username/employee-management-system.git
 cd employee-management-system
 npm install
@@ -172,5 +194,3 @@ If you liked this project, don’t forget to ⭐ the repo 😄
 
 📄 License
 This project is licensed under the MIT License – you're free to use, modify, and distribute this project.
-
-
